@@ -1,0 +1,18 @@
+/*Varaibles*/
+$font-main: 'Quicksand', sans-serif;
+$font-result: 'Indie Flower', cursive;
+$color-main: #25272A;
+$color-background: #F7F7F7;
+$color-button: #5BC0EB;
+$color-highlight: #685779;
+
+/*Global*/
+body {
+  background: $color-background;
+  font-family: $font-main;
+  color: $color-main;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*Header*/
