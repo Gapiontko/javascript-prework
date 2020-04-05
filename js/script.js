@@ -21,15 +21,15 @@ function playGame(playerInput){
 
   let playerMove = getMoveName(playerInput);
 
-  printMessage('Twój ruch to: ' + playerMove);
-
-  //Computer
+  //Computer's turn
 
   let randomNumber = Math.floor(Math.random() * 3 + 1);
 
   let computerMove = getMoveName(randomNumber);
 
-  printMessage('Mój ruch to: ' + computerMove);
+  printMessage('Twój ruch to ' + playerMove + ', a mój ruch to ' + computerMove + '.');
+
+  printMessage('Zatem:');
 
   //Results
 

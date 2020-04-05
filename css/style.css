@@ -28,11 +28,11 @@ body {
   margin: 0 auto;
 }
 
-.game {
+.buttons {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 button {
@@ -53,5 +53,11 @@ button {
 button span {
   font-size: 36px;
   color: #7D8491;
+}
+
+.result {
+  padding-top: 24px;
+  font-family: "Indie Flower", cursive;
+  font-size: 36px;
 }
 /*# sourceMappingURL=style.css.map */

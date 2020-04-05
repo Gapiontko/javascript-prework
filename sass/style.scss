@@ -34,9 +34,9 @@ body {
   padding: 0 20px;
   margin: 0 auto;
 }
-.game {
+.buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 button {
   height: 90px;
@@ -53,4 +53,9 @@ button {
 button span {
   font-size: 36px;
   color: $color-icon;
+}
+.result {
+  padding-top: 24px;
+  font-family: $font-result;
+  font-size: 36px;
 }
