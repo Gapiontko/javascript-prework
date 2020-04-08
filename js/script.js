@@ -51,7 +51,7 @@ console.log('moves:', argComputerMove, argPlayerMove);
     }
   }
 
-  let result = displayResult(computerMove, playerMove)
+ displayResult(computerMove, playerMove)
 }
 
 document.getElementById('play-rock').addEventListener('click', function(){
