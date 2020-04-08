@@ -28,7 +28,7 @@ console.log('computers move:' + computerMove);
 
   //Results
 
-  function displayResult(argComputerMove, argPlayerMove){
+  const displayResult = function(argComputerMove, argPlayerMove){
 console.log('moves:', argComputerMove, argPlayerMove);
     if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
       printMessage('Wygrywasz!');
