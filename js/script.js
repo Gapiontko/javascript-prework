@@ -3,7 +3,7 @@ function playGame(playerInput){
   clearMessages()
 
   //moves' names
-  function getMoveName(argMoveId){
+  const getMoveName = function (argMoveId){
     if(argMoveId == 1){
       return 'kamień';
     }else if (argMoveId == 2) {
@@ -11,14 +11,9 @@ function playGame(playerInput){
     }else if (argMoveId == 3) {
       return 'nożyce';
     }
-
-    printMessage(argMoveId + '=ZONK!!!!');
-    return 'ZONK!';
   }
 
   //Player's turn
-
-  /*let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');*/
 
   let playerMove = getMoveName(playerInput);
 console.log('players move:' + playerMove);
